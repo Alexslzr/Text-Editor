@@ -18,7 +18,6 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
-      new GenerateSW(),
       new HtmlWebpackPlugin({
         template: './index.html',
         title: 'JATE'
